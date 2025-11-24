@@ -8,8 +8,9 @@ import StayDetails from './pages/StayDetails';
 import MyBookings from './pages/MyBookings';
 import StayReg from './components/StayReg';
 import Layout from './pages/hotelOwner/Layout';
-import Dashboard from './pages/hotelOwner/Dashboard.jsx';
+
 import AddRoom from './pages/hotelOwner/AddRoom';
+import Dashboard from './pages/hotelOwner/Dashboard';
 
 
 const App = () => {
