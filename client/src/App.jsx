@@ -9,7 +9,6 @@ import MyBookings from './pages/MyBookings';
 import StayReg from './components/StayReg';
 import Layout from './pages/hotelOwner/Layout';
 
-import AddRoom from './pages/hotelOwner/AddRoom';
 import Dashboard from '../src/pages/hotelOwner/Dashboard';
 
 
@@ -28,7 +27,7 @@ const isOwnerPath = useLocation().pathname.includes("owner")
           <Route path='/my-bookings' element= {<MyBookings/>} />
           <Route path='/owner' element= {<Layout/>} >
             <Route index element={<Dashboard/>} />
-            <Route path="add-room" element={<AddRoom/>} />
+            
 
           </Route>    
         </Routes>
