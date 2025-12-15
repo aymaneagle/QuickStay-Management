@@ -10,8 +10,8 @@ import StayReg from './components/StayReg';
 import Layout from './pages/hotelOwner/Layout';
 
 import AddRoom from './pages/hotelOwner/AddRoom';
-import Dashboard from '../src/pages/hotelOwner/Dashboard';
-import ListRoom from '../src/pages/hotelOwner/ListRoom'
+import Dashboard from './pages/hotelOwner/Dashboard';
+import ListRoom from './pages/hotelOwner/ListRoom'
 
 
 const App = () => {
